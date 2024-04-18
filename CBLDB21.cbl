@@ -24,9 +24,10 @@
        FD  REPOUT                                                       
                RECORD CONTAINS 120 CHARACTERS                           
                LABEL RECORDS ARE OMITTED                                
-               DATA RECORD IS REPREC.                                   
+               DATA RECORD IS REPRECORD.
+                
                                                                         
-       01  REPREC.                                                      
+       01  REPRECORD.                                                      
            05  ACCT-NO-O      PIC X(8).                                 
            05  ACCT-LIMIT-O   PIC $$,$$$,$$9.99.                        
            05  ACCT-BALANCE-O PIC $$,$$$,$$9.99.                        
