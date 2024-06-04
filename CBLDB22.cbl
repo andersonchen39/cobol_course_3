@@ -25,7 +25,7 @@
            DATA RECORD IS REPREC.                                       
       *                                                                 
        01  REPREC.                                                      
-           05  ACCT-NO-O      PIC X(20).                                 
+           05  ACCT-NO-O      PIC X(9).                                 
            05  ACCT-LIMIT-O   PIC $$,$$$,$$9.99.                        
            05  ACCT-BALANCE-O PIC $$,$$$,$$9.99.                        
            05  ACCT-LASTN-O   PIC X(20).                                
