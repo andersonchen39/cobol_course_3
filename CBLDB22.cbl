@@ -28,7 +28,7 @@
            05  ACCT-NO-O      PIC X(30).                                 
            05  ACCT-LIMIT-O   PIC $$,$$$,$$9.99.                        
            05  ACCT-BALANCE-O PIC $$,$$$,$$9.99.                        
-           05  ACCT-LASTN-O   PIC X(10).                                
+           05  ACCT-LASTN-O   PIC X(15).                                
            05  ACCT-FIRSTN-O  PIC X(25).                                
            05  ACCT-COMMENT-O PIC X(50).                                
       *-------------                                                    
