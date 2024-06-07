@@ -38,7 +38,7 @@
            RECORDING MODE F                                             
            LABEL RECORDS ARE OMITTED.                                   
       *                                                                 
-       01  INREC                      PIC X(80).                        
+       01  INREC                      PIC X(90).                        
                                                                         
        WORKING-STORAGE SECTION.                                         
       *****************************************************             
